@@ -23,7 +23,7 @@ Some basic terminal commands which you need or which is better to know as a good
 * arrow up or arrow down to show the last commands 
 
 
-##Commands to Manage Files & Folders
+## Commands to Manage Files & Folders
 
 * `mkdir` - To use this command you can create a new directory in your current directory. To do that write `mkdir directoryName`. For example `mkdir test`. It will create a new directory with name **test** in your current directory. To check that write `ls`. You will see your new test directory in that list.
 
