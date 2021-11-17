@@ -36,4 +36,17 @@ Some basic terminal commands which you need or which is better to know as a good
 * `>>` : It will end line at the end of the file. Something like append. Similar format than previous. As it is adding line at the end of the file so it will not overwrites previous lines.
 
 * `nano` : Nano is one of the text editors. We can open a file like this `nano test.txt` and edit the content on the fly.
+
+* `cp` : This command is used to copy file. We need to provide two parameter as well. One is source and another is destination. For example in our current directory we have a file name **test.txt**. Now we want to copy this file with a different name. So we ca write like this `cp test.txt testcp.txt`. Now if you run `ls` then you will see a new file with name testcp.txt.
+
+* `mv` : To move a file from one place to another we can use this command. Suppose we have a file named **test.txt** in our current directory and we have a directory named **testdirectory** in our current directory. Now we want to move this **test.txtt** file inside the **testdirectory**. To do that we can use the mv command like this `mv test.txt testdirectory/test.txt`. So that means we need to provide source and destination like `cp` command. 
+
+* `zip` : To zip a folder we can use this command. Suppose we want to zip **testdirectory** folder to **testdirectory**. To do that we will write `zip -r testdirectory.zip testdirectory`. Here we need to provide the destination first.
+
+* `unzip` : To unzip a zip file we can use this command. We need to pass the zip file like this `unzip testdirectory.zip`
+
+
+## Navigating in the Terminal
+* `ctrl + A` - It will move the cursor to start
+* `ctrl + E` - Move the cursor to end
  
